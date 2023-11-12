@@ -1,0 +1,91 @@
+.personasContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #121212;
+}
+
+.card {
+  cursor: pointer;
+  border-radius: 10px;
+  overflow: hidden;
+  background: linear-gradient(145deg, #1c1c1e, #2c2c2e);
+  box-shadow: 5px 5px 10px #0a0a0a, -5px -5px 10px #2a2a2a;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 20px #0a0a0a, -10px -10px 20px #2a2a2a;
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.cardDescription {
+  font-size: 1rem;
+  color: #c0c0c0;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modalContent {
+  background: #222;
+  padding: 2rem;
+  border-radius: 10px;
+  position: relative;
+}
+
+.modalImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.modalTitle {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-top: 1rem;
+}
+
+.modalDescription {
+  font-size: 1.2rem;
+  color: #c0c0c0;
+  margin-bottom: 2rem;
+}
+
+.buyButton, .closeButton {
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.buyButton {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.closeButton {
+  background-color: #f44336;
+  color: #ffffff;
+}

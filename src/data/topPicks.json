@@ -1,0 +1,14 @@
+[
+  {
+    "id": "2",
+    "name": "Strategist AI",
+    "description": "AI for complex strategy planning",
+    "image": "agent1.png"
+  },
+  {
+    "id": "3",
+    "name": "Chore Automator",
+    "description": "Automates your daily tasks",
+    "image": "agent2.png"
+  }
+]

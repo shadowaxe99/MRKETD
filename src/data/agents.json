@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "Cosmic Conductor",
+    "description": "The conductor of your cosmic orchestra.",
+    "image": "agent3.png",
+    "price": 1100,
+    "level": 10
+  },
+  {
+    "id": "2",
+    "name": "Strategist Architect",
+    "description": "Designs and executes complex strategies for your business.",
+    "image": "agent1.png",
+    "price": 900,
+    "level": 12
+  },
+  {
+    "id": "3",
+    "name": "Chore Automator",
+    "description": "Takes care of all your mundane chores with ease.",
+    "image": "agent2.png",
+    "price": 700,
+    "level": 8
+  },
+  {
+    "id": "4",
+    "name": "Fitness Companion",
+    "description": "Your digital partner in maintaining a healthy lifestyle.",
+    "image": "agent3.png",
+    "price": 650,
+    "level": 15
+  },
+  {
+    "id": "5",
+    "name": "Entertainment Enthusiast",
+    "description": "Curates and suggests entertainment based on your preferences.",
+    "image": "agent4.png",
+    "price": 600,
+    "level": 4
+  }
+]

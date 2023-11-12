@@ -1,0 +1,10 @@
+.container {
+  padding: 2rem;
+}
+
+.dashboardLayout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

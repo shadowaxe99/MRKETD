@@ -1,0 +1,59 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background: #121212;
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%;
+  max-width: 450px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.modalImage {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.modalName {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.modalDescription {
+  color: #aaa;
+  margin-top: 10px;
+}
+
+.buyButton, .closeButton {
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(45deg, #6e6e6e, #333);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.buyButton {
+  background: linear-gradient(45deg, #08f, #06c);
+}
+
+.closeButton {
+  background: none;
+  color: #aaa;
+}

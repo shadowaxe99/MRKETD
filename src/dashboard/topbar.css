@@ -1,0 +1,42 @@
+.agent-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.agent-square {
+  width: 50px;
+  height: 50px;
+  background-image: url('consigliere.png');
+  background-size: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px 2px #0f0;
+  animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 5px #0f0;
+  }
+  to {
+    box-shadow: 0 0 20px #0f0;
+  }
+}
+
+.agent-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-size: cover;
+  border: 1px solid #fff;
+  box-shadow: 0 0 5px #00f;
+}
+
+.agent-circle.locked {
+  background-image: url('lock.png');
+  box-shadow: 0 0 5px #f00;
+}
+
+.agent1, .agent2, .agent3 {
+  background-image: url('agent1.png'), url('agent2.png'), url('agent3.png');
+}

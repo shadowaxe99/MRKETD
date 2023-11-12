@@ -1,0 +1,16 @@
+.dashboardLayout {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #111;
+  color: white;
+  padding: 1rem;
+}
+
+.mainContent {
+  flex-grow: 1;
+  padding: 1rem;
+}
